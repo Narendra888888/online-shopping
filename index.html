@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Online Shopping</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <linl
+      rel="icon"
+      href="https://www.pngrepo.com/download/217771/shopping-logo.png"
+    />
+    <script
+      src="https://kit.fontawesome.com/c56f67f121.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><img
+            src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-442-1151214.png"
+            width="30%"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon" style="background-color: aquamarine"
+            >=</span
+          >
+        </button>
+        <div class="collapse navbar-collapse mr-5" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home"
+                >Home <i class="fa-solid fa-house"></i
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about"
+                >About <i class="fa-solid fa-address-card"></i
+              ></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#payment"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Payment
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li>
+                  <a class="dropdown-item" href="#payment">Cash on Delivary</a>
+                </li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#payment">Online payment</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true"
+                >Contact <i class="fa-solid fa-address-book"></i
+              ></a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- home section -->
+    <section class="bgimg" id="home">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center one">
+            <h1 class="head mt-5">Online Shopping</h1>
+            <p style="font-size: 25px; margin-left: 1%">Go Shop and Njoy...</p>
+            <button class="btns">
+              Online product <i class="fa-solid fa-cart-shopping"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section -->
+    <section class="mt-5 chinnu" id="about">
+      <div class="container">
+        <h1
+          style="color: #a2b621; font-size: 40px; font-weight: bold"
+          class="text-center"
+        >
+          About
+        </h1>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 w-50">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-indicators">
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="0"
+                  class="active"
+                  aria-current="true"
+                  aria-label="Slide 1"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="1"
+                  aria-label="Slide 2"
+                ></button>
+                <button
+                  type="button"
+                  data-bs-target="#carouselExampleIndicators"
+                  data-bs-slide-to="2"
+                  aria-label="Slide 3"
+                ></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img
+                    src="http://2.bp.blogspot.com/-LZ6bY3ThIx4/UXfNCQWVRJI/AAAAAAAADNo/Vafk6qr01-g/s1600/mobile+phones.jpeg"
+                    class="d-block w-100 ca-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://wallpaperaccess.com/full/6424675.jpg"
+                    class="d-block w-100 ca-img"
+                    alt="..."
+                  />
+                </div>
+                <div class="carousel-item">
+                  <img
+                    src="https://pluspng.com/img-png/grocery-items-png-enjoy-online-grocery-shopping-in-bhubaneswar-with-4-easy-steps-click-submit-pay-and-pick-up-2362.jpg"
+                    class="d-block w-100 ca-img"
+                    alt="..."
+                  />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-4 col-sm-3">
+            <div class="card" style="width: 18rem">
+              <a href=" "
+                ><img
+                  src="https://tse3.mm.bing.net/th?id=OIP.DDNRoDRWLZKet6AAc9bciwHaE7&pid=Api&P=0&h=180"
+                  class="card-img-top ca-img"
+                  alt="..."
+              /></a>
+              <div class="card-body">
+                <p class="card-text">
+                  “The odds of going to the store for a loaf of bread and coming
+                  out with only a loaf of bread are three billion to one.” ‒
+                  Erma Bombeck
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <a href=" "
+                ><img
+                  src="https://gadgetsreviews.in/wp-content/uploads/2020/12/obage-home-theatre-speaker.jpg"
+                  class="card-img-top ca-img"
+                  alt="..."
+              /></a>
+              <div class="card-body">
+                <p class="card-text">
+                  “The odds of going to the store for a loaf of bread and coming
+                  out with only a loaf of bread are three billion to one.” ‒
+                  Erma Bombeck
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="card" style="width: 18rem">
+              <a href=" ">
+                <img
+                  src="https://tse4.mm.bing.net/th?id=OIP.cCRun4_UoLdSVWiCBdMk-QHaE7&pid=Api&P=0&h=180"
+                  class="card-img-top ca-img"
+                  alt="..."
+              /></a>
+              <div class="card-body">
+                <p class="card-text">
+                  “The odds of going to the store for a loaf of bread and coming
+                  out with only a loaf of bread are three billion to one.” ‒
+                  Erma Bombeck
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- payment -->
+    <section class="mt-5 nandu" id="payment">
+      <div class="container">
+        <h1
+          style="color: gold; font-size: 40px; font-weight: bold"
+          class="text-center"
+        >
+          Payment
+        </h1>
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-4">
+            <form>
+              <fieldset>
+                <legend>Enter your Details</legend>
+                <div class="mb-3">
+                  <label for="TextInput" class="form-label">User Name</label>
+                  <input
+                    type="text"
+                    id="TextInput"
+                    class="form-control"
+                    placeholder="Enter Your name"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="TextInput" class="form-label">Password</label>
+                  <input
+                    type="text"
+                    id="TextInput"
+                    class="form-control"
+                    placeholder="Password"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Select" class="form-label"
+                    >Select Payment option</label
+                  >
+                  <select id="Select" class="form-select">
+                    <option>Offline-Payment</option>
+                    <option>UPI-Payment</option>
+                    <option>Credit & Debit card-payment</option>
+                  </select>
+                </div>
+                <div class="mb-3">
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      id="FieldsetCheck"
+                    />
+                    <label class="form-check-label" for="FieldsetCheck">
+                      Please Check Once's
+                    </label>
+                  </div>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact -->
+    <section class="bgcontact md-5" id="contact">
+      <div class="container">
+        <h1
+          style="color: green; font-size: 40px; font-weight: bold"
+          class="text-center pt-5"
+        >
+          Contact
+        </h1>
+        <div class="row">
+          <div class="col-12 col-md-6">
+            <form class="formy">
+              <lable>Username</lable>
+              <input type="text" placeholder="enter your name" />
+              <lanble>Commment</lanble>
+              <textarea></textarea>
+              <button class="mt5 cbutton">Contact</button>
+            </form>
+          </div>
+          <div class="col-12 col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30876.061835553355!2d80.01797481713756!3d14.68385551634648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4c87019ac7ec67%3A0x9fd5c53b6bde8989!2sAllur%2C%20Andhra%20Pradesh%20524315!5e0!3m2!1sen!2sin!4v1713264919313!5m2!1sen!2sin"
+              width="600"
+              height="450"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer -->
+    <section class="mt-0 bg-foot">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-row justify-content-center">
+            <img
+              src="https://cdn.iconscout.com/icon/free/png-256/shopping-cart-442-1151214.png"
+              width="20%" class="abc"
+            />
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <h1 class="text-center">Online-Shopping</h1>
+          </div>
+          <div class="col-12 d-flex flex-row justify-content-center icon">
+            <a
+              href="https://www.instagram.com/mr_alone.boy999/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="https://www.facebook.com/ch.narendra.3766" target="_blank">
+              <i class="fa-brands fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/ch-narendra-a76803294/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a href="https://web.whatsapp.com/" target="_blank">
+              <i class="fa-brands fa-whatsapp"></i
+            ></a>
+          </div>
+          <div class="col-12 d-flex justify-content-center">
+            <h5>@copyright frontend team</h5>
+          </div>
+          <div class="col-12">
+            <a href="#"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

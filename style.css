@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+}
+.navbar{
+    background-image: url("https://wallpapercave.com/wp/wp2581372.jpg");
+}
+.nav-link{
+    padding: 0%;
+    font-size: 25px;
+    font-weight: bold;
+    color: aqua;
+}
+.ca-img{
+    aspect-ratio: 3/2;
+}
+h5{
+    color: #e12416;
+    font-weight: bold;
+}
+.bgimg{
+    background-image: url("https://wallpapercave.com/wp/wp3152211.jpg");
+    width: 99vw;
+    height: 50vh;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0%;
+}
+
+.btns{
+    background-color: transparent;
+    color: #3518d8;
+    border: 1px solid green;
+    width: 40%;
+    border-radius: 20px;
+   margin-top: 3%;
+   margin-left: 0%;
+   padding: 0.2%;
+   padding-left: 0%;
+   padding-right: 0%;
+   font-size: 30px;
+}
+.btns:hover{
+    background-color: green;
+    color: white;
+}
+.head{
+    color: red;
+}
+.nandu{
+    
+    width: 99vw;
+    height: 70vh;
+    background-size: cover;
+    background-color: aqua;
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+}
+.bgcontact {
+    background-color: #0bf9f9;
+    width: 99vw;
+}
+
+.formy label {
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+
+}
+
+.formy input[type="text"] {
+    border: none;
+    box-shadow: 2px 2px 2px grey;
+    border-radius: 25px;
+    padding: 0.8%;
+    width: 90%;
+    margin-bottom: 4%;
+
+}
+
+.formy textarea {
+    width: 90%;
+    border: none;
+    box-shadow: 2px 2px 2px lightgreen;
+    border-radius: 25px;
+}
+
+.formy {
+    display: flex;
+    flex-direction: column;
+}
+.cbutton {
+    background-color: white;
+    color: red;
+    font-size: 20px;
+    width: 60%;
+    border: none;
+    border-radius: 30px;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.cbutton:hover {
+    background-color: blue;
+    color: white;
+    border: 1px solid white;
+    transform: scale(1.2);
+}
+.bg-foot{
+    background-color: aqua;
+    width: 99vw;
+    height: 70vh;
+}
+.icon{
+    font-size: 40px;
+    margin-right: 60%;
+    padding:2%;
+}
+.fa-brands{
+   padding-left: 5%;  
+}
+.fa-instagram{
+    color: #de1e1e;
+}
+.fa-facebook{
+    color: blue;
+}
+.fa-linkedin{
+    color: #2e2ee0;
+}
+.fa-whatsapp{
+    color: #36e536;
+}
+.collapse{
+    margin-left: 8%;
+}
+.card:hover{
+    color: blue;
+    background-color: #0bf9f9;
+    box-shadow: -1px 5px 4px gray;
+}
+.head{
+    font-weight: bold;
+    text-shadow: 2px 3px 5px gray;
+}
